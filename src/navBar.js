@@ -7,6 +7,7 @@ let navBar = (()=>{
     let menu = document.createElement("div");
     let contacts = document.createElement("div");
     let content = document.getElementById("content");
+    let line = document.createElement("div");
 
     //assigning ids
     nav.id = "nav-bar";
@@ -15,6 +16,7 @@ let navBar = (()=>{
     home.id = "home";
     menu.id = "menu";
     contacts.id = "contacts";
+    line.classList.add("line");
 
 
     //text-content
@@ -30,6 +32,7 @@ let navBar = (()=>{
 
         //logo
         nav.appendChild(logo);
+        nav.appendChild(line);
         
         //buttons
         nav.appendChild(buttons);
