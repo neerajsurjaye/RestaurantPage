@@ -17,11 +17,15 @@ let about  = (()=>{
         header.appendChild(body);
         header.appendChild(body);
 
-
-
     }
 
-    return {init};
+    let remove = ()=>{
+        if(document.getElementById("section-header")){
+            content.removeChild(header);
+        }
+    }
+
+    return {init , remove};
 
 })();
 

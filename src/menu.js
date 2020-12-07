@@ -11,7 +11,6 @@ let menu = (() => {
     menu.id = "main-section-menu";
     head.id = "menu-head";
     list.id = "list";
-    console.log("ran");
     
     let init = ()=>{
         content.appendChild(menu);
@@ -25,7 +24,17 @@ let menu = (() => {
             list.appendChild(list_items[i]);      
         }
     }
-    return {init};
+
+    let remove = ()=>{
+        console.log(document.getElementById("main-section-menu"));
+        if(document.getElementById("main-section-menu")){
+            content.removeChild(menu);
+        }
+        //content.removeChild(head);
+        //content.removeChild(list);
+    }
+
+    return {init , remove};
 
 })();
 

@@ -19,7 +19,13 @@ let home = (()=>{
 
     }
 
-    return {init};
+    let remove = ()=>{
+        if(document.getElementById("main-section-home")){
+            content.removeChild(sHome);
+        }
+    }
+
+    return {init , remove};
 })();
 
 
