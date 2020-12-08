@@ -5,7 +5,7 @@ let navBar = (()=>{
     let buttons = document.createElement("div");
     let home = document.createElement("div");
     let menu = document.createElement("div");
-    let contacts = document.createElement("div");
+    let about = document.createElement("div");
     let content = document.getElementById("content");
     let line = document.createElement("div");
 
@@ -15,7 +15,7 @@ let navBar = (()=>{
     buttons.id = "buttons";
     home.id = "home";
     menu.id = "menu";
-    contacts.id = "contacts";
+    about.id = "about";
     line.classList.add("line");
 
 
@@ -23,7 +23,7 @@ let navBar = (()=>{
     logo.textContent = "PROJECT:RESTAURANT";
     home.textContent = "home";
     menu.textContent = "menu";
-    contacts.textContent = "contacts";
+    about.textContent = "ABOUT";
 
     //initilizes~~~~
     let init = ()=>{
@@ -38,7 +38,7 @@ let navBar = (()=>{
         nav.appendChild(buttons);
         buttons.appendChild(home);
         buttons.appendChild(menu);
-        buttons.appendChild(contacts);
+        buttons.appendChild(about);
 
     }
 

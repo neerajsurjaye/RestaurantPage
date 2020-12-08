@@ -20,9 +20,11 @@ let about  = (()=>{
     }
 
     let remove = ()=>{
+        //console.log(document.getElementById("section-header"));
         if(document.getElementById("section-header")){
             content.removeChild(header);
         }
+        //console.log(document.getElementById("section-header"));
     }
 
     return {init , remove};

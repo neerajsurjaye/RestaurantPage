@@ -5,7 +5,7 @@ let home = (()=>{
     let content  = document.getElementById("content");
 
     sHome.id = "main-section-home";
-    sHead.id = "section-header";
+    sHead.id = "section-header-home";
     sBody.id = "section-body";
 
     sHead.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";

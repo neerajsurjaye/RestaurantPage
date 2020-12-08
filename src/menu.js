@@ -26,7 +26,7 @@ let menu = (() => {
     }
 
     let remove = ()=>{
-        console.log(document.getElementById("main-section-menu"));
+        //console.log(document.getElementById("main-section-menu"));
         if(document.getElementById("main-section-menu")){
             content.removeChild(menu);
         }
