@@ -13,16 +13,16 @@ let about  = (()=>{
     body.id = "section-body";
 
     let init = ()=>{
-        content.appendChild(header);
-        header.appendChild(body);
-        header.appendChild(body);
+        content.appendChild(holder);
+        holder.appendChild(header);
+        holder.appendChild(body);
 
     }
 
     let remove = ()=>{
         //console.log(document.getElementById("section-header"));
-        if(document.getElementById("section-header")){
-            content.removeChild(header);
+        if(document.getElementById("main-section-about")){
+            content.removeChild(holder);
         }
         //console.log(document.getElementById("section-header"));
     }

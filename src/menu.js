@@ -13,7 +13,7 @@ let menu = (() => {
     list.id = "list";
 
 
-    for(var i = 0 ; i < 4 ; i++){
+    for(var i = 0 ; i < 8 ; i++){
         list_items[i] = document.createElement("li");
         list_items[i].classList.add("list-item");
         list_items[i].textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
