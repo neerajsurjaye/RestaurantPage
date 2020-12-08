@@ -4,7 +4,7 @@ let about  = (()=>{
     let body = document.createElement("div");
     let content = document.getElementById("content");
 
-    header.textContent = "ABOUT";
+    header.textContent = "ABOUT:";
     body.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eaque enim fugiat corporis ipsum illum nam quia voluptate velit accusamus, magnam officia nulla aliquid sunt quos facere? Voluptatibus porro itaque, amet, magnam nemo eveniet sed facere vero excepturi cupiditate aliquam.";
 
 
