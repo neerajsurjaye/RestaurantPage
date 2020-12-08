@@ -131,4 +131,5 @@ body{
 #buttons > .active{
     border-bottom: #fd264f solid 4px;
     color: rgba(255, 255, 255, 1);
+    
 }
